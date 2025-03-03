@@ -1,0 +1,22 @@
+name: vendorAPI
+description: "Vendor Access Management API"
+version: 1.0.0
+paths:
+  /notify:
+    post:
+      handler: src/handlers/notify.handler
+      cors: true
+      authorizer:
+        type: COGNITO_USER_POOLS
+  /reRequest:
+    post:
+      handler: src/handlers/reRequest.handler
+      cors: true
+      authorizer:
+        type: COGNITO_USER_POOLS
+  /updateEmail:
+    post:
+      handler: src/handlers/updateEmail.handler
+      cors: true
+      authorizer:
+        type: COGNITO_USER_POOLS

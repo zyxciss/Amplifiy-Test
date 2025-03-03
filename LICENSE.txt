@@ -1,0 +1,15 @@
+# AIRAS Public License (APL)
+Copyright (c) AIRAS
+
+
+Created by Zyxciss aka Atah Alam  
+GitHub: [github.com/zyxciss](https://github.com/zyxciss)  
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to the following conditions:
+
+1. The Software is provided "as is", without warranty of any kind.
+2. The Software must not be used for harmful, malicious, or unethical activities.
+3. Any modifications must be clearly documented and shared under the same license.
+
+For more details, visit [AIRAS](https://airas.com).

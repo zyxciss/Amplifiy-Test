@@ -1,0 +1,25 @@
+type VendorRequest @model @auth(rules: [{allow: private}]) {
+  id: ID!
+  vendorName: String!
+  vendorEmail: String!
+  requestorEmail: String!
+  prefix: String!
+  s3NamingConvention: String!
+  destinationAccount: AccountType!
+  status: RequestStatus!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime
+  lastAccessDate: AWSDateTime
+}
+
+enum AccountType {
+  S3
+  SHAREPOINT
+}
+
+enum RequestStatus {
+  PENDING
+  APPROVED
+  DENIED
+  EXPIRED
+}

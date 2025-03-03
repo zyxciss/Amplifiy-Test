@@ -1,0 +1,40 @@
+# Setup Instructions
+
+
+Created by Zyxciss aka Atah Alam  
+GitHub: [github.com/zyxciss](https://github.com/zyxciss)  
+
+
+## Prerequisites
+- Node.js (v16 or later)
+- AWS CLI installed and configured (`aws configure`)
+- Amplify CLI installed (`npm install -g @aws-amplify/cli`)
+- An AWS account with required permissions
+
+## Setup Steps
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd sourcecode
+   ```
+2. Initialize Amplify:
+   - On Windows:
+     ```sh
+     init-amplify.bat
+     ```
+   - On Linux/Mac:
+     ```sh
+     chmod +x init-amplify.sh
+     ./init-amplify.sh
+     ```
+3. Deploy the backend services:
+   ```sh
+   amplify init
+   amplify push
+   ```
+4. Install dependencies and run the frontend:
+   ```sh
+   cd src
+   npm install
+   npm start
+   ```

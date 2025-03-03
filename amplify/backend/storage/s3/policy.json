@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VendorAccess",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "${cognito-identity.amazonaws.com:sub}"
+            },
+            "Action": [
+                "s3:PutObject",
+                "s3:GetObject",
+                "s3:ListBucket"
+            ],
+            "Resource": [
+                "arn:aws:s3:::${bucket_name}/${cognito-identity.amazonaws.com:sub}/*",
+                "arn:aws:s3:::${bucket_name}"
+            ]
+        }
+    ]
+}
