@@ -9,12 +9,15 @@ GitHub: [github.com/zyxciss](https://github.com/zyxciss)
 This project is an AWS Amplify-powered web application with backend services for authentication, API handling, and storage. It includes frontend components built using React and backend functions running on AWS Lambda.
 ## Creator 
 ```
-███████╗██╗   ██╗██╗  ██╗ ██████╗██╗███████╗███████╗
-╚══███╔╝╚██╗ ██╔╝╚██╗██╔╝██╔════╝██║██╔════╝██╔════╝
-███╔╝  ╚████╔╝  ╚███╔╝ ██║     ██║███████╗███████╗
-███╔╝    ╚██╔╝   ██╔██╗ ██║     ██║╚════██║╚════██║
-███████╗   ██║   ██╔╝ ██╗╚██████╗██║███████║███████║
-╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝╚══════╝╚══════╝
+
+ █████╗ ████████╗ █████╗ ██╗  ██╗
+██╔══██╗╚══██╔══╝██╔══██╗██║  ██║
+███████║   ██║   ███████║███████║
+██╔══██║   ██║   ██╔══██║██╔══██║
+██║  ██║   ██║   ██║  ██║██║  ██║
+╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝
+                                 
+
 
 ```
 ## Features
